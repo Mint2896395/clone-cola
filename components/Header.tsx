@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <div className="mx-0 box-border">
             {/*header1*/}
-            <div className="flex flex-col items-center justify-center bg-[#ae070b] pt-10 pb-[15px] px-[15px]">
+            <div className="flex flex-col items-center justify-center bg-[#1515ae] pt-10 pb-[15px] px-[15px]">
             <div className="mx-0 box-border">
                 <div className="relative box-border min-h-[1px] px-3.5 md:float-left md:w-1/6 lg:float-left lg:w-1/4" />
                 <div className="relative float-left box-border min-h-[1px] w-full px-3.5 md:float-left md:w-2/3 lg:float-left lg:w-1/2">
@@ -34,9 +34,9 @@ const Header = () => {
                 </div>
             </div>
             </div>
-            <div className="mx-0 box-border h-[0.8px] bg-[#6a0306]" />
-            <div className="mx-0 box-border h-[0.8px] bg-[#e70c11]" />
-            <div className="flex flex-col items-center justify-center bg-[#ae070b]">
+            <div className="mx-0 box-border h-[0.8px] bg-[#0e0e77]" />
+            <div className="mx-0 box-border h-[0.8px] bg-[#2828ef]" />
+            <div className="flex flex-col items-center justify-center bg-[#1515ae]">
             <div className="mx-0 box-border">
                 <div className="relative float-left box-border min-h-[1px] w-full px-3.5 md:float-left md:w-full lg:float-left lg:w-full">
                 {/*Main menu*/}
@@ -63,7 +63,7 @@ const Header = () => {
                         <ul className="dropdown-menu absolute hidden text-gray-700 pt-1">
                             <li className="">
                                 <a
-                                    className="rounded-t bg-pink-200 hover:bg-pink-400 py-2 px-4 block whitespace-no-wrap"
+                                    className="rounded-t bg-blue-200 hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap"
                                     href="#"
                                 >
                                     ภาษา
@@ -71,7 +71,7 @@ const Header = () => {
                             </li>
                             <li className="">
                                 <a
-                                    className="bg-pink-200 hover:bg-pink-400 py-2 px-4 block whitespace-no-wrap"
+                                    className="bg-blue-200 hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap"
                                     href="#"
                                 >
                                     เทคโนโลยี
@@ -79,7 +79,7 @@ const Header = () => {
                             </li>
                             <li className="">
                                 <a
-                                    className="bg-pink-200 hover:bg-pink-400 py-2 px-4 block whitespace-no-wrap"
+                                    className="bg-blue-200 hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap"
                                     href="#"
                                 >
                                     การจัดการ
@@ -87,7 +87,7 @@ const Header = () => {
                             </li>
                             <li className="">
                                 <a
-                                    className="bg-pink-200 hover:bg-pink-400 py-2 px-4 block whitespace-no-wrap"
+                                    className="bg-blue-200 hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap"
                                     href="#"
                                 >
                                     ศิลปะและการพัฒนาตนเอง
@@ -95,7 +95,7 @@ const Header = () => {
                             </li>
                             <li className="">
                                 <a
-                                    className="bg-pink-200 hover:bg-pink-400 py-2 px-4 block whitespace-no-wrap"
+                                    className="bg-blue-200 hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap"
                                     href="#"
                                 >
                                     สุขภาพ
@@ -103,7 +103,7 @@ const Header = () => {
                             </li>
                             <li className="">
                                 <a
-                                    className="rounded-b bg-pink-200 hover:bg-pink-400 py-2 px-4 block whitespace-no-wrap"
+                                    className="rounded-b bg-blue-200 hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap"
                                     href="#"
                                 >
                                     คอร์สทั้งหมด
@@ -122,7 +122,7 @@ const Header = () => {
                         <ul className="dropdown-menu absolute hidden text-gray-700 pt-1">
                             <li className="">
                                 <a
-                                    className="rounded-t bg-pink-200 hover:bg-pink-400 py-2 px-4 block whitespace-no-wrap"
+                                    className="rounded-t bg-blue-200 hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap"
                                     href="#"
                                 >
                                     นิสิตและบุคลากรจุฬาฯ
@@ -130,7 +130,7 @@ const Header = () => {
                             </li>
                             <li className="">
                                 <a
-                                    className="bg-pink-200 hover:bg-pink-400 py-2 px-4 block whitespace-no-wrap"
+                                    className="bg-blue-200 hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap"
                                     href="#"
                                 >
                                     บุคคลทั่วไป
@@ -138,7 +138,7 @@ const Header = () => {
                             </li>
                             <li className="">
                                 <a
-                                    className="rounded-b bg-pink-200 hover:bg-pink-400 py-2 px-4 block whitespace-no-wrap"
+                                    className="rounded-b bg-blue-200 hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap"
                                     href="#"
                                 >
                                     Partner
@@ -181,7 +181,7 @@ const Header = () => {
                         <ul className="dropdown-menu absolute hidden text-gray-700 pt-1">
                             <li className="">
                                 <a
-                                    className="rounded-t bg-pink-200 hover:bg-pink-400 py-2 px-4 block whitespace-no-wrap"
+                                    className="rounded-t bg-blue-200 hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap"
                                     href="#"
                                 >
                                     เกี่ยวกับเรา
@@ -189,7 +189,7 @@ const Header = () => {
                             </li>
                             <li className="">
                                 <a
-                                    className="bg-pink-200 hover:bg-pink-400 py-2 px-4 block whitespace-no-wrap"
+                                    className="bg-blue-200 hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap"
                                     href="#"
                                 >
                                     ติดต่อเรา
@@ -197,7 +197,7 @@ const Header = () => {
                             </li>
                             <li className="">
                                 <a
-                                    className="rounded-b bg-pink-200 hover:bg-pink-400 py-2 px-4 block whitespace-no-wrap"
+                                    className="rounded-b bg-blue-200 hover:bg-blue-400 py-2 px-4 block whitespace-no-wrap"
                                     href="#"
                                 >
                                     คลิปอื่น
